@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 58px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    color: #141414;
+    border: 5px solid #141414;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.contenedor-botones{
+    width: 100%;
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    gap: 40px;
+}
+
+
+.boton{
+    display: inline-flex;
+    width: 100%;
+    height: 80px;
+    background: #141414;
+    color: #fff;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.boton span{
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
